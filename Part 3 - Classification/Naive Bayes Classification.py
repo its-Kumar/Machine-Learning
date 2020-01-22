@@ -11,7 +11,6 @@ X = dataset.iloc[:, [2, 3]].values
 y = dataset.iloc[:, 4].values
 
 # Spliting dataset into trainning set and Test set
-
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y,
                                                     test_size=0.25,
