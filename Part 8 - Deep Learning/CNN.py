@@ -1,7 +1,6 @@
 # Convolutional Neural Network
 
 # Part 1 -Building the CNN
-
 # Importing the keras libraries and packages
 from keras.models import Sequential
 from keras.layers import Convolution2D, MaxPooling2D, Flatten, Dense
@@ -41,7 +40,6 @@ train_datagen = ImageDataGenerator(
         horizontal_flip=True)
 
 test_datagen = ImageDataGenerator(rescale=1./255)
-
 training_set = train_datagen.flow_from_directory('dataset/training_set',
                                                  target_size=(64, 64),
                                                  batch_size=32,

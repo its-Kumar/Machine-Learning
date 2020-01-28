@@ -1,3 +1,4 @@
+# Decision tree regression
 
 # Importing the libraries
 import numpy as np
@@ -25,7 +26,6 @@ y_train = sc_y.fit_transform(y_train.reshape(-1,1))"""
 from sklearn.tree import DecisionTreeRegressor
 regressor = DecisionTreeRegressor(random_state=0)
 regressor.fit(X,y)
-
 
 # Predicting a new result
 y_pred = regressor.predict([[6.5]])

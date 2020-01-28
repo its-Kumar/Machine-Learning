@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  1 09:19:24 2019
-
-@author: Prince_K
-"""
+# Simple Linear Regression
 
 # Importing the libraries
 import numpy as np

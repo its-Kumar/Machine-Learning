@@ -1,11 +1,9 @@
 # Artificial Neural Network
 
 # Part 1 - Data Preprocessing
-
 # Importing the dataset
 dataset = read.csv('Churn_Modelling.csv')
 dataset = dataset[4:14]
-
 
 # Encoding categorical data
 dataset$Geography = as.numeric(factor(dataset$Geography,
@@ -14,6 +12,7 @@ dataset$Geography = as.numeric(factor(dataset$Geography,
 dataset$Gender = as.numeric(factor(dataset$Gender,
 													 levels = c('Female', 'Male'),
 													 labels = c(1, 2)))
+
 
 # Splitting dataset into training set and test set
 library(caTools)

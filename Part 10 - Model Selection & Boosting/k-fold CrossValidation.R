@@ -1,4 +1,4 @@
-# k-ford CrossValidation
+# k-fold CrossValidation
 
 # Importing the dataset
 dataset = read.csv('Social_Network_Ads.csv')

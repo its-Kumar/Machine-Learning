@@ -1,7 +1,9 @@
 # Multiple linear regression
 
+# Importing the dataset
 dataset = read.csv("50_Startups.csv")
 
+# Encoding categorical data
 dataset$State = factor(dataset$State, levels = c('New York','California','Florida'),
                        labels = c(1,2,3))
 
@@ -16,7 +18,7 @@ test_set = subset(dataset,split ==FALSE)
 # fitting multi reg on training set
 regressor = lm(formula = Profit~ . , data = training_set)
 
-
+# Predicting the results
 y_pred = predict(regressor, newdata = test_set)
 
 # Backward elimination

@@ -15,7 +15,6 @@ test_set = subset(dataset, split == FALSE)
 training_set[, 1:2] = scale(training_set[, 1:2])
 test_set[, 1:2] = scale(test_set[, 1:2])
 
-
 #fitting Logistic regrassion to the training set
 classifier = glm(formula = Purchased ~ ., 
                  family = binomial,
@@ -65,4 +64,3 @@ plot(set[, 3],
 contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
 points(grid_set, pch='.', col=ifelse(y_grid ==1, 'springgreen3', 'tomato') )
 points(set, pch=21, bg=ifelse(set[, 3] ==1, 'green4', 'red3'))
-

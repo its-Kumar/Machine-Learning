@@ -21,7 +21,7 @@ regressor = lm(formula = Salary~ YearsExperience,
 y_pred = predict(regressor, newdata = test_set)
 
 
-# Visualixing the training set results
+# Visualizing the training set results
 # install.packages('ggplot2')
 library(ggplot2)
 ggplot( ) + 
@@ -34,7 +34,7 @@ ggplot( ) +
   ylab('Salary')
 
 
-# Visualixing the test set results
+# Visualizing the test set results
 ggplot( ) + 
   geom_point(aes(x = test_set$YearsExperience, y = test_set$Salary),
              colour = 'red') +

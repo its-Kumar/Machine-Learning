@@ -1,6 +1,5 @@
 import statsmodels.formula.api as sm
 
-
 def backwardElimination(x, sl):
     numVars = len(x[0])
     for i in range(0, numVars):
@@ -19,7 +18,6 @@ X_opt = X[:, [0, 1, 2, 3, 4, 5]]
 X_Modeled = backwardElimination(X_opt, SL)
 
 # Backward Elimination with p-values and Adjusted R Squared
-
 def backwardElimination(x, SL):
     numVars = len(x[0])
     temp = np.zeros((50, 6)).astype(int)
