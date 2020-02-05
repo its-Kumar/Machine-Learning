@@ -1,5 +1,5 @@
 # Machine-Learning
- Basic Machine Learning Tutorial 
+	Basic Machine Learning Tutorial using Python and R.
 
 ## Part 1 - Data Preprocessing
 	a) categorical_data
