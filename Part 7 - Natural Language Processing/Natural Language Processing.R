@@ -39,8 +39,8 @@ test_set = subset(dataset, split == FALSE)
 # install.packages('randomForest')
 library(randomForest)
 classifier = randomForest(x = training_set[-692],
-													y = training_set$Liked,
-													ntree = 10)
+						y = training_set$Liked,
+						ntree = 10)
 
 # Predicting the Test set results
 y_pred = predict(classifier, newdata = test_set[-692])

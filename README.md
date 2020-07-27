@@ -31,6 +31,8 @@ Basic Machine Learning Tutorial using Python and R.
 7. Random Forest Classification
 8. Classification Template
 
+---
+
 ## Un-supervised Learning
 
 ### Part 4 - Clustering
@@ -43,6 +45,8 @@ Basic Machine Learning Tutorial using Python and R.
 1. Apriori
 2. Eclat
 
+---
+
 ## Reinforcement Learning
 
 ### Part 6 - Reinforcement Learning
@@ -50,16 +54,21 @@ Basic Machine Learning Tutorial using Python and R.
 1. Upper Confidence Bound (UCB)
 2. Thompson Sampling
 
+---
+
+## Deep Learning
+
 ### Part 7 - Natural Language Processing
 
 1. NPL
-
-## Deep Learning
+2. NPL using google's [BERT model](https://sdsclub.com/bert-google-nlp-algorithm/)
 
 ### Part 8 - Deep Learning
 
 1. Artificial Neural Network (ANN)
 2. Convolution Neural Network (CNN)
+
+---
 
 ### Part 9 - Dimensionality Reduction
 
@@ -69,6 +78,9 @@ Basic Machine Learning Tutorial using Python and R.
 
 ### Part 10 - Model Selection & Boosting
 
-1. k-fold CrossValidation
-2. Grid Search
-3. XG Boost
+1. Comparing performance of regression models
+2. Comparing performance of classification models
+3. k-fold CrossValidation
+4. Grid Search
+5. XG Boost
+6. CatBoost
